@@ -199,7 +199,7 @@ object.prototype.getfacepoints = function(index){
 
 // canvas3D
 // convert the 3d point into a 2d point and draw it with the canvas librarys
-var canvas3D = function(element, d = 1000, x = 0, y = 0, z = 0, s = 1){
+var canvas3D = function(element, d = 10, x = 0, y = 0, z = 0, s = 50){
 	this.element = element
 	this.canvas = new canvas(element)
 	this.camera = new camera(d, x, y, z, s)
